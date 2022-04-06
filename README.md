@@ -8,3 +8,15 @@ This project is adapted from Road to Data Engineer 2.0 course. It aimed to imple
   - Workflow Scheduler <br /> using oozie to schedule tasks daily to insert joined data in batch layer and streaming layer to Hive.
 
 ## DATA MODEL
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/48947748/161922660-8ffd6efc-79a8-4357-8fbd-affec2fb5c6f.png)
+
+## DATA EXAMPLE
+
+![customers_cln_ex](https://user-images.githubusercontent.com/48947748/161923370-68c17d10-0b00-4157-9caa-1b5e48dbfe40.jpg) <br />
+<p text-aling="center">customers_cln table<p/>
+
+![transactions_cln_ex](https://user-images.githubusercontent.com/48947748/161923385-2f9d31e3-3e63-4602-ae30-37796a2c70f7.jpg)<br />
+<p text-aling="center">transactions_cln table<p/>
+
+![loyalty_ex](https://user-images.githubusercontent.com/48947748/161923390-094bf80c-1930-41b6-8218-bffd3025a88b.jpg)<br />
+<p text-aling="center">loyalty table<p/>
