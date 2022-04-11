@@ -8,10 +8,10 @@ The data pipeline was created on VMs in GCP and used service in Cloudera platfor
   - Batch Layer and Streaming Layer <br /> spark and spark-streaming are used to transform the data that store in HDFS in the batch layer and streaming layer, respectively, and then keep a table in Hive.
   - Workflow Scheduler <br /> using oozie to schedule tasks daily to insert joined data in batch layer and streaming layer to Hive.
 
-## DATA MODEL
+## DATA MODEL:
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/48947748/161922660-8ffd6efc-79a8-4357-8fbd-affec2fb5c6f.png)
 
-## DATA EXAMPLE
+## SAMPLE DATA:
 
 ![customers_cln_ex](https://user-images.githubusercontent.com/48947748/161923370-68c17d10-0b00-4157-9caa-1b5e48dbfe40.jpg) <br />
 <p align="center">customers_cln table</p>
