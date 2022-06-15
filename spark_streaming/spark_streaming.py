@@ -26,6 +26,7 @@ strmDF = strmDF.withColumn('order_menu', split_col.getItem(0)) \
 query = strmDF \
     .selectExpr('customer_id as cust_id','order_menu as odr_menu','order_price as odr_prc','order_timestamp as odr_tms') \
     .writeStream \
+    .repetition(1) \
     .outputMode("append") \
     .format("parquet") \
     .option("path", "/tmp/default/transactions_cln") \
