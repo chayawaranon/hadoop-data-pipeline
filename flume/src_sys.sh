@@ -16,7 +16,6 @@ do
     done
    timestamp=$(date +%s)
    echo "$id|${orders[$RANDOM%${#orders[@]}]}|$timestamp" >> /data/flume/source/hdfs/order_${timestamp}.txt
-   echo "$id|${orders[$RANDOM%${#orders[@]}]}|$timestamp" >> /data/flume/source/hbase/order_${timestamp}.txt
-   sleep 30
+   sleep 5
 done
   
